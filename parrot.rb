@@ -1,5 +1,5 @@
 # Create method `parrot` that outputs a given phrase and
-require_relative '../parrot.rb'
+require_relative '../spec_helper.rb'
 # returns the phrase
 def parrot(phrase = "Pretty bird!", phrase = "Squawk!")
   puts "Squawk!"
