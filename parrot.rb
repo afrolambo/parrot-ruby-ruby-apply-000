@@ -1,7 +1,7 @@
 # Create method `parrot` that outputs a given phrase and
-require_relative '../spec_helper.rb'
+def parrot(phrase = "Pretty bird!", phrase = "squawk")
 # returns the phrase
-def parrot(phrase = "Pretty bird!", phrase = "Squawk!")
-  puts "Squawk!"
+
+  puts "#{"Pretty bird!"}+#{"Squawk"}"
   "Squawk!"
 end
